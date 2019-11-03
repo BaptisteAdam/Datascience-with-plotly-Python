@@ -1,0 +1,3 @@
+Lorsque tous les fichiers sont dans le meme dossier, simplement éxécuter la commande 'python projet.py'
+
+A noter, dans le CSV d'origine, les lieux n'ont pas de coordonnées geographique, je suis donc allé les chercher avec l'API Nominatim. Par soucis de temps d'execution et de potentiel probleme de ban temporaire de l'API pour sur-utilisation de celle-ci, le programme utilise le fichier plan_b.py qui contiens les dites coordonnées pré-répupérées par l'exact meme code present dans le fichier principal. Si vous voulez utiliser ce code pour vérifier son fonctionnement, décommentez la ligne 131 et commentez la ligne 132 de projet.py avant de l'éxécuter.
